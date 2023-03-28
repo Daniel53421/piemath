@@ -1,0 +1,65 @@
+
+body {
+    background-image: url("https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy-downsized-large.gif");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+  font-family: Arial, sans-serif;
+}
+
+background {
+    background-image: url("https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy-downsized-large.gif");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 100px;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+.Footer {
+  background-color: rgb(148, 148, 148);
+    opacity: 0.6;
+}
+
+button:hover {
+  background-color: darkgreen;
+}

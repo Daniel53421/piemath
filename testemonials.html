@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>Our Testemonials</head>
+<style>
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.topnav {
+  overflow: hidden;
+  position: sticky;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer{
+  position:fixed; left:17px; top:900px;    
+}
+</style>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1069788367199420436/1079070309874925629/Untitled-removebg-preview.png">
+<div class="topnav">
+  <a href="danielmain.html">Home</a>
+    <a href="mathylogin.html">Login</a>
+    <a href="testemonials.html">Reviews</a>
+    <a href="danielcontact.html">Contact Us</a>
+    
+</div>
+    <div class="container">
+        <img src="bandmember.jpg" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+        <p>John Doe saved us from a web disaster.</p>
+      </div>
+      
+      <div class="container">
+        <img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+        <p><span >Rebecca Flex.</span> CEO at Company.</p>
+        <p>No one is better than John Doe.</p>
+      </div>
+
+      
+      <div style = "position:relative; left:10px; top:2px">
+        <button onclick="window.location.href='mathylogin.html'">Back a Page</button>
+    </div>  
+      <div style = "position:relative; left:1800px; top:2px">
+        <button onclick="window.location.href='danielcontact.html'">Next Page</button>
+    </div>    
+      
+        
+       
+</html>
